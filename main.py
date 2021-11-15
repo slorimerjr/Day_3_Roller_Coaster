@@ -13,13 +13,13 @@ if height >= 120:
   age = int(input("How old are you? "))
   if age <= 12:
     print("Child tickets are $5.")
-      bill = 5
+    bill = 5
   elif age <= 17:
     print("Youth tickets are $7.")
-     bill = 7
+    bill = 7
   else:
     print("Adult tickets are $12.")
-     bill = 12
+    bill = 12
     
   wants_picture = input("Would you like to take a picture? Y or N ")
   if wants_picture == "Y":
