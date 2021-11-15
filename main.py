@@ -25,7 +25,7 @@ if height >= 120:
   if wants_picture == "Y":
     bill += 3
 
-  print(f"You're total today will be ${bill}.")
+  print(f"Your total today will be ${bill}.")
 
 else:
   print("Sorry, you need to be taller to ride the ride.")
